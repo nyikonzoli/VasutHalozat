@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VasuthalozatPublic", "VasuthalozatPublic", "{3F4F1043-AD21-40DE-AF97-66B3634FDCC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VasuthalozatCommon", "VasuthalozatCommon", "{98F0EB94-5791-40F1-AD38-BE6386AB539F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VasuthalozatAdmin", "VasuthalozatAdmin", "{EAA603C3-0426-4DD3-8E79-0872B42F5833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasuthalozatAdminApplication", "VasuthalozatAdminApplication\VasuthalozatAdminApplication.csproj", "{09A778B2-8B86-4FFA-BF6A-708F141D8850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasuthalozatPublicApplication", "VasuthalozatPublicApplication\VasuthalozatPublicApplication.csproj", "{045267A5-D5C9-41E9-9F70-9214C5DFE847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasuthalozatCommonLibrary", "VasuthalozatCommonLibrary\VasuthalozatCommonLibrary.csproj", "{F27D0987-377B-4184-B1BE-CB612F3427DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09A778B2-8B86-4FFA-BF6A-708F141D8850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A778B2-8B86-4FFA-BF6A-708F141D8850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A778B2-8B86-4FFA-BF6A-708F141D8850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A778B2-8B86-4FFA-BF6A-708F141D8850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045267A5-D5C9-41E9-9F70-9214C5DFE847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045267A5-D5C9-41E9-9F70-9214C5DFE847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045267A5-D5C9-41E9-9F70-9214C5DFE847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045267A5-D5C9-41E9-9F70-9214C5DFE847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27D0987-377B-4184-B1BE-CB612F3427DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27D0987-377B-4184-B1BE-CB612F3427DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27D0987-377B-4184-B1BE-CB612F3427DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27D0987-377B-4184-B1BE-CB612F3427DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09A778B2-8B86-4FFA-BF6A-708F141D8850} = {EAA603C3-0426-4DD3-8E79-0872B42F5833}
+		{045267A5-D5C9-41E9-9F70-9214C5DFE847} = {3F4F1043-AD21-40DE-AF97-66B3634FDCC2}
+		{F27D0987-377B-4184-B1BE-CB612F3427DE} = {98F0EB94-5791-40F1-AD38-BE6386AB539F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87473E59-3636-4073-8640-4506289C7243}
+	EndGlobalSection
+EndGlobal
