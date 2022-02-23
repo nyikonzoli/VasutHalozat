@@ -36,8 +36,7 @@ namespace VasuthalozatPublicApplication
             }
             catch (VasuthalozatException exc)
             {
-
-                throw;
+                MessageBox.Show(exc.Message, "Nem sikerült a regisztráció", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

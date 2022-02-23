@@ -1,0 +1,18 @@
+﻿<Window x:Class="VasuthalozatPublicApplication.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VasuthalozatPublicApplication.Views"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label FontSize="34">Bejelentkezés</Label>
+        <Label>Felhasználónév vagy email:</Label>
+        <TextBox x:Name="name"></TextBox>
+        <Label>Jelszó:</Label>
+        <TextBox x:Name="password"></TextBox>
+        <Button x:Name="login" Click="login_Click">Bejelentkezés</Button>
+        <Button x:Name="registerPage" Click="registerPage_Click">Még nincs fiókod? Regisztrálj!</Button>
+    </StackPanel>
+</Window>
