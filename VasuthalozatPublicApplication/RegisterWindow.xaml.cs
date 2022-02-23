@@ -24,5 +24,15 @@ namespace VasuthalozatPublicApplication
         {
             InitializeComponent();
         }
+
+        private void register_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void loginPage_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

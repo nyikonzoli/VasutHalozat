@@ -18,7 +18,7 @@ namespace VasuthalozatCommonLibrary.Repository
         {
             get
             {
-                if(instance == null)
+                if (instance == null)
                 {
                     instance = new UserDbContext();
                 }
@@ -33,7 +33,7 @@ namespace VasuthalozatCommonLibrary.Repository
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
-            optionBuilder.UseSqlServer();
+            optionBuilder.UseSqlServer("");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
