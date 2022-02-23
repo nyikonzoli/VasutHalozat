@@ -8,7 +8,7 @@ using VasuthalozatCommonLibrary.Model;
 
 namespace VasuthalozatCommonLibrary.Repository
 {
-    class UserDbContext : DbContext
+    public class UserDbContext : DbContext
     {
         private static UserDbContext instance = null;
 

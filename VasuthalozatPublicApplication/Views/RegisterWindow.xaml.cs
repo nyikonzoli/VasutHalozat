@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using VasuthalozatPublicApplication.Controllers;
+using VasuthalozatCommonLibrary.Exceptions;
 
 namespace VasuthalozatPublicApplication
 {
@@ -27,7 +29,16 @@ namespace VasuthalozatPublicApplication
 
         private void register_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                RegisterController controller = new RegisterController();
+                controller.Register(name.Text, email.Text, userName.Text, password1.Text, password2.Text);
+            }
+            catch (VasuthalozatException exc)
+            {
 
+                throw;
+            }
         }
 
         private void loginPage_Click(object sender, RoutedEventArgs e)
