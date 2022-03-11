@@ -28,5 +28,10 @@ namespace VasuthalozatPublicApplication.Views
         {
 
         }
+
+        private void registerPage_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

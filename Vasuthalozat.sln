@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VasuthalozatCommon", "Vasut
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VasuthalozatAdmin", "VasuthalozatAdmin", "{EAA603C3-0426-4DD3-8E79-0872B42F5833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasuthalozatAdminApplication", "VasuthalozatAdminApplication\VasuthalozatAdminApplication.csproj", "{09A778B2-8B86-4FFA-BF6A-708F141D8850}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VasuthalozatAdminApplication", "VasuthalozatAdminApplication\VasuthalozatAdminApplication.csproj", "{09A778B2-8B86-4FFA-BF6A-708F141D8850}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasuthalozatPublicApplication", "VasuthalozatPublicApplication\VasuthalozatPublicApplication.csproj", "{045267A5-D5C9-41E9-9F70-9214C5DFE847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VasuthalozatPublicApplication", "VasuthalozatPublicApplication\VasuthalozatPublicApplication.csproj", "{045267A5-D5C9-41E9-9F70-9214C5DFE847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasuthalozatCommonLibrary", "VasuthalozatCommonLibrary\VasuthalozatCommonLibrary.csproj", "{F27D0987-377B-4184-B1BE-CB612F3427DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VasuthalozatCommonLibrary", "VasuthalozatCommonLibrary\VasuthalozatCommonLibrary.csproj", "{F27D0987-377B-4184-B1BE-CB612F3427DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
